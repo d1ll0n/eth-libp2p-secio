@@ -2,6 +2,7 @@
 
 const pull = require('pull-stream')
 const lp = require('pull-length-prefixed')
+const setImmediate = require('async/setImmediate')
 
 const lpOpts = {
   fixed: true,
@@ -39,7 +40,7 @@ exports.createUnboxStream = (decipher, mac) => {
       const macSize = mac.length
 
       if (l < macSize) {
-        return cb(new Error(`buffer (${l}) shorter than MAC size (${macSize})`))
+        return setImmediate(() => cb(new Error(`buffer (${l}) shorter than MAC size (${macSize})`)))
       }
 
       const mark = l - macSize
