@@ -1,24 +1,7 @@
-# js-libp2p-secio
+# eth-libp2p-secio
 
-[![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://protocol.ai)
-[![](https://img.shields.io/badge/project-libp2p-yellow.svg?style=flat-square)](http://libp2p.io/)
-[![](https://img.shields.io/badge/freenode-%23libp2p-yellow.svg?style=flat-square)](http://webchat.freenode.net/?channels=%23libp2p)
-[![Discourse posts](https://img.shields.io/discourse/https/discuss.libp2p.io/posts.svg)](https://discuss.libp2p.io)
-[![](https://img.shields.io/codecov/c/github/libp2p/js-libp2p-secio.svg?style=flat-square)](https://codecov.io/gh/libp2p/js-libp2p-secio)
-[![](https://img.shields.io/travis/libp2p/js-libp2p-secio.svg?style=flat-square)](https://travis-ci.com/libp2p/js-libp2p-secio)
-[![Dependency Status](https://david-dm.org/libp2p/js-libp2p-secio.svg?style=flat-square)](https://david-dm.org/libp2p/js-libp2p-secio)
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/feross/standard)
-![](https://img.shields.io/badge/npm-%3E%3D3.0.0-orange.svg?style=flat-square)
-![](https://img.shields.io/badge/Node.js-%3E%3D6.0.0-orange.svg?style=flat-square)
+> Fork of [libp2p-secio](https://github.com/libp2p/js-libp2p-secio/) using eth-peer-id, eth-peer-info and libp2p-crypto-secp256k1.
 
-
-> SECIO implementation in JavaScript
-
-This repo contains the JavaScript implementation of secio, an encryption protocol used in libp2p. This is based on this [go implementation](https://github.com/libp2p/go-libp2p-secio).
-
-## Lead Maintainer
-
-[Friedel Ziegelmayer](https://github.com/dignifiedquire/)
 
 ## Table of Contents
 
@@ -31,13 +14,13 @@ This repo contains the JavaScript implementation of secio, an encryption protoco
 ## Install
 
 ```sh
-npm install libp2p-secio
+npm install eth-libp2p-secio
 ```
 
 ## Usage
 
 ```js
-const secio = require('libp2p-secio')
+const secio = require('eth-libp2p-secio')
 ```
 
 ## API
@@ -83,7 +66,7 @@ To learn more about this utility, visit https://pull-stream.github.io/#pull-stre
 
 ## Contribute
 
-Feel free to join in. All welcome. Open an [issue](https://github.com/libp2p/js-libp2p-secio/issues)!
+Feel free to join in. All welcome. Open an [issue](https://github.com/libp2p/eth-libp2p-secio/issues)!
 
 This repository falls under the IPFS [Code of Conduct](https://github.com/ipfs/community/blob/master/code-of-conduct.md).
 

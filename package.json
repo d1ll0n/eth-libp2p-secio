@@ -1,8 +1,7 @@
 {
-  "name": "libp2p-secio",
+  "name": "eth-libp2p-secio",
   "version": "0.11.1",
   "description": "Secio implementation in JavaScript",
-  "leadMaintainer": "Friedel Ziegelmayer <dignifiedquire@gmail.com>",
   "main": "src/index.js",
   "scripts": {
     "lint": "aegir lint",
@@ -29,11 +28,12 @@
     "debug": "^4.1.1",
     "interface-connection": "~0.3.3",
     "libp2p-crypto": "~0.16.1",
+    "libp2p-crypto-secp256k1": "^0.3.0",
     "multiaddr": "^6.0.6",
     "multihashing-async": "~0.6.0",
     "once": "^1.4.0",
-    "peer-id": "~0.12.2",
-    "peer-info": "~0.15.1",
+    "eth-peer-id": "^0.0.2",
+    "eth-peer-info": "^0.0.2",
     "protons": "^1.0.1",
     "pull-defer": "~0.2.3",
     "pull-handshake": "^1.1.4",
@@ -57,12 +57,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ipfs/js-libp2p-secio.git"
+    "url": "https://github.com/d1ll0n/eth-libp2p-secio"
   },
   "bugs": {
-    "url": "https://github.com/ipfs/js-libp2p-secio/issues"
+    "url": "https://github.com/d1ll0n/eth-libp2p-secio/issues"
   },
-  "homepage": "https://github.com/ipfs/js-libp2p-secio",
+  "homepage": "https://github.com/d1ll0n/eth-libp2p-secio",
   "contributors": [
     "David Dias <daviddias.p@gmail.com>",
     "Dmitriy Ryajov <dryajov@gmail.com>",

@@ -1,7 +1,7 @@
 'use strict'
 
 const protons = require('protons')
-const PeerId = require('peer-id')
+const PeerId = require('eth-peer-id')
 const crypto = require('libp2p-crypto')
 const parallel = require('async/parallel')
 const waterfall = require('async/waterfall')
